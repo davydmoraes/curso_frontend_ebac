@@ -1,0 +1,21 @@
+#numbersForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#error-message {
+    color: red;
+    outline: 1px solid red;
+    background-color: rgb(255, 141, 141);
+    margin-bottom: 10px;
+    display: none;
+}
+
+#success-message{
+    color: green;
+    outline: 1px solid green;
+    background-color: rgb(141, 255, 141);
+    margin-bottom: 10px;
+    display: none;
+}
